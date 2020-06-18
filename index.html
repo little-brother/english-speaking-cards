@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8"/> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />	
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+	<link href = "index.css" rel="stylesheet"/>
+	<script src = "data.js"></script>
+	<script src = "index.js"></script>
+</head>
+
+<body>
+	<div id = "page-selector" class = "page center" current>
+		<div class = "top">
+			<div>Choose a category</div>
+			<div>Seleccione una categoría</div>
+		</div>
+		<div class = "content">
+			<div id = "numbers" class = "group">Numbers / Los números</div>
+			<div id = "colors" class = "group">Colors / Colores</div>
+			<div id = "animals" class = "group">Animals / Animales</div>	
+			<div id = "verbs" class = "group">Verbs / Los verbos</div>		
+		</div>
+	</div>
+
+	<div id = "page-card" class = "page center">
+		<div id = "option" class = "top">
+			<div ref = "word" pushed>English</div>
+			<div ref = "translate" pushed>Español</div>
+		</div>	
+		
+		<div class = "content">
+			<div id = "word"></div>
+			<div id = "translate"></div>		
+			<div id = "image"></div>
+			<div id = "answer"></div>					
+		</div>		
+		
+		<div id = "button"></div>
+	</div>
+</body>
+</html>
