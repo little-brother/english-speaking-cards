@@ -95,7 +95,7 @@ window.addEventListener('load', function() {
 	function showCard(no) {
 		cardNo = no;
 		var curr = data[group][cardNo];
-		$image.style.backgroundImage = `url('/images/${group}/${curr.word}.jpg')`;
+		$image.style.backgroundImage = `url('images/${group}/${curr.word}.jpg')`;
 		$word.innerHTML = curr.word;
 		$translate.innerHTML = curr.translate;
 		$answer.innerHTML = '&nbsp;';
